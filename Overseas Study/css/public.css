@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共样式*/
+body,p,dl,dd,h1,h2,h3,h4,h5,h6,ul,ol{margin:0;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:12px;}
+em,i{font-style:normal;}
+ul,ol{padding:0;list-style:none;}
+a{text-decoration:none;}
+img{vertical-align:top;border:none;}
+input{margin:0;outline: none;}
+textarea {outline: none;}
+.wrap{width:100%;}
+.center{width:1000px;margin:0 auto;}
+.clearfix{zoom:1}
+.clearfix:after{content:"";display:block;clear:both;}
+.fl{float:left;}  
+.fr{float:right;}
+a:hover{color:#00b382;}
+
+/*头部*/
+.header{background:#f7f7f7;margin-bottom:27px;height:30px;font:12px/30px 'sunsun';color:#888;}
+.header_m{height:30px;}
+.header_l a{float:left;color:#888;line-height:30px;}
+.header_l i{float:left;width:0;height:11px;border-left:1px dotted#c5c5c5;margin:10px;overflow:hidden;}
+.header_r li {position: relative;z-index: 999;float: left;padding-left: 23px;background: no-repeat left center;margin-left: 20px;cursor: pointer;}
+.header_r .header_wx{background-image: url(../images/img-02.jpg)}
+.header_r .header_wb{background-image: url(../images/img.jpg)}
+.header_r .header_qq{background-image: url(../images/img-03.jpg)}
+.header_r a{color:#888;}
+.header_r li.active .aQQ{color:#3eabe5}
+.header_r li.active .aWx{color:#00b382}
+.header_r li.active .aWb{color:#fa923f}
+.header_r div{display:none;position:absolute;z-index:999;background:#fff;left:50%;top:45px;margin:0 -84px;padding:10px;border:1px solid;}
+.header_wx div{border-color:#00b382;}
+.header_wb div{border-color:#fa923f;}
+.header_qq div{border-color:#3eabe5;}
+.header_r i,.header_r b{position:absolute;display:block;width:0;height:0;border:10px solid transparent; font-size:0; line-height:0;}
+.header_r i{left:50%; top:-20px; margin:0 -10px; border-bottom-color:inherit; }
+.header_wx i{border-bottom-color:#00b382;}
+.header_wb i{border-bottom-color:#fa923f;}
+.header_qq i{border-bottom-color:#3eabe5;}
+.header_r b{border-bottom-color:#fff; left:-10px; top:-9px;}
+
+/*logo部分*/
+.logo{height:75px;}
+.logo_c{width:385px;margin: 8px 0 0 80px;border:1px solid #e0e0e0;border-radius: 5px;}
+.activeText{border:1px solid #00c38e;}
+.logo_r{ position: relative;padding-top: 11px;border-top: 1px solid #eee;font: bold 24px/32px "Microsoft Yahei";color: #ff7200;text-align: center;}
+.logo_r span{left:20%;padding: 0 10px;position:absolute;top:-12px;background:#fff;font: 12px/23px "Microsoft Yahei";color:#555;}
+.logo input{float:left;display: block;font: 12px/34px "sunsun";color: #999;border: none;}
+.logo_text{width:335px;height:34px;padding-left:7px;margin-left:5px;line-height:34px;}
+.logo_sub{width: 32px;height: 34px; background:url(../images/img-05.jpg) no-repeat left center;cursor:pointer;}
+
+/*导航部分*/
+.nav{height:45px;background:#00c38e;overflow: hidden;}
+.nav li{float:left;height:45px;}
+.nav i{float:left;width:0;height:13px;border-left:1px solid #66dbbb;margin:18px 0;overflow:hidden;}
+.nav a{float:left;padding:0 11px;font:16px/45px "Microsoft Yahei";color:#fff;}
+.nav a:hover{background:#00b382}
+
+/*关于佳航 我们的服务*/
+.aboutjh{background:#f6f6f6;padding:42px 0 41px;}
+.aboutjh_m{overflow:hidden;position:relative;}
+.aboutjh_l{border-right:1px solid #e9e9e9;}
+.aboutjh_m ul{float:left;margin-right:59px; display:inline;}
+.aboutjh_m li{font:12px/34px '宋体';}
+.aboutjh_m .abjh_title{font-size:14px; line-height:24px; color:#333;}
+.aboutjh_m  a{color:#777;}
+
+.aboutjh_r{border-right:1px solid #e9e9e9; padding:12px 50px 0 50px;}
+.code dd{font:12px/34px '宋体'; color:#777; text-align:center;}
+.ml30{margin-left:30px;}
+
+.jh_phone{ position:absolute; right:0; top:24px;}
+.jh_phone dl{width:200px; overflow:hidden;}
+.jh_phone dt{width:200px; height:29px; background:url(../images/phone.jpg) no-repeat; border-bottom:1px solid #e6e6e6; padding-bottom:17px;}
+.jh_phone dd{width:120px; height:14px; font-size:14px; line-height:14px; color:#888; background:#f6f6f6; margin:-6px auto 0; text-align:center;}
+.jh_phone p{width:200px; height:48px; background:#00b685; font-size:20px; line-height:48px; color:#fff; text-align:center; border-radius:3px; margin-top:30px;}
+.jh_phone p a{color:#fff;}
+
+/*底部样式*/
+.footer{background:#323232;}
+.footer_m{overflow:hidden;}
+.footer_m p{font:12px/52px '宋体';color:#bbb;}
