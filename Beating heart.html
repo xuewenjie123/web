@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+
+	<style>
+    		
+			.box{margin:100px auto;width:200px;height:200px; position:relative; animation:heart 1s infinite;}
+			.box:before,.box:after{position:absolute;border-radius:50%;background:red;top:0;content:''; display:block;width:200px;height:200px; }
+			.box:before{left:-70px;}
+			.box:after{right:-70px;}
+			.box div{position:absolute;left:0;bottom:-70px;width:200px;height:200px;background:red; transform:rotate(45deg);}
+			
+			
+			@keyframes heart{
+				0%{ transform:scale(1);}
+				50%{ transform:scale(1.2);}
+				100%{ transform:scale(1);}
+			}
+
+    </style>
+
+</head>
+
+<body>
+
+	<div class="box">
+    	<div></div>
+    </div>
+
+</body>
+</html>
