@@ -1,0 +1,96 @@
+body,p,dl,dd,h1,h2,h3,h4,h5,h6,ul,ol{margin:0;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:12px;}
+em,i{font-style:normal;}
+ul,ol{list-style:none;padding:0;}
+a{text-decoration:none;}
+img{vertical-align:top;border:none;}
+.clearfix{zoom:1;}
+.clearfix:after{content:""; display:block; clear:both;}
+input{margin:0;padding:0 ;outline:none;border:none;}
+textarea{resize:none ;overflow:auto;}
+.wrapper{width:100%;}
+.layout{width:1147px;margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.title{text-align:center;}
+.title h3{font:bold 24px/51px "Microsoft YaHei";color:#000;}
+.title span{display:inline-block;*display:inline;zoom:1;border-top:2px solid #cf2324;font:18px/30px "Microsoft YaHei"}
+/*顶部*/
+.top{height:36px;background:#222;}
+.top p{font:14px/36px "Microsoft YaHei";color:#FEFEFE;}
+.top span{margin-left:10px;}
+
+/*头部logo部分*/
+.header{height:63px;padding-top:36px;}
+.logo_img{padding-left:14px;}
+.head_ul li{float:left;}
+.head_ul a{display:block;color:#333;font:18px/61px "Microsoft YaHei";margin-bottom:2px;margin-left:30px;}
+.head_ul a:hover{margin-bottom:0;border-bottom:2px solid #CF2324;color:#CF2324;}
+    /*banner部分*/
+#banner{height:448px;overflow: hidden;position:relative;}
+.banner_ul{width:400%;position:absolute;left:0;top:0;}
+.banner_ul li{width:25%; float: left;}
+
+/*快速受理*/
+#accept{height:590px;}
+.accept_title{padding-top:75px;height:172px;}
+.accept_ul{padding-left:104px;overflow: hidden;width:1160px;}
+.accept_ul li{float: left;margin-right:74px;}
+.accept_ul a{display: block;text-align: center;}
+.accept_p{font:20px/34px "Microsoft YaHei";color:#333;}
+.accept_span{font:14px/43px "Microsoft YaHei";color:#CF2324;}
+
+
+/*创业服务*/
+#innovation{ overflow:hidden;height:862px;background:#f8f8f8 url("../images/bglinear.png") no-repeat center 315px;}
+.innovation_title{height:149px;padding-top:71px;}
+.innovation_ul{width:1200px;}
+.innovation_ul li{width:265px;height:423px;background:url("../images/innovation_bg.png") no-repeat;float: left;text-align:center;margin-right:29px;}
+.innovation_ul img{padding-top:86px;}
+.innovation_ul p{font:24px/152px "Microsoft YaHei";color:#333;}
+
+/*选择业务*/
+.choose_business{position: relative;text-align: center;z-index: 1;}
+.bus_title{padding-top:71px;height:169px;}
+.bglinear{width:6px;height:1760px;background:#f8f8f8;position: absolute;left:50%;top:154px;margin-left:-3px;}
+.choose_layout{width:846px;margin:0 auto}
+.choose_business ul{width:322px;height:263px;padding-top:22px;padding-left:23px; text-align: left;}
+.choose_business li{font:20px/60px "Microsoft YaHei";color:#333;}
+.choose_business p{font:56px/58px "Microsoft YaHei";color:#333;width:50%;text-align: center;padding-top:26px;}
+.choose_layout img{position:absolute;left:50%;top:28px;margin-left:-31px;width:62px;height:62px;z-index: 100;}
+#register,#estate_duty,#social_security,#equities{position:relative;z-index: 100;}
+/*工商注册*/
+#register{height:398px;}
+.register_ul{background:url("../images/blue.png") no-repeat;}
+/*财税代理*/
+#estate_duty{height:467px;}
+.duty_ul{background:url("../images/yelow.png") no-repeat;}
+/*社保人事*/
+#social_security{height:437px;}
+.security_ul{background:url("../images/sblue.png") no-repeat;}
+/*知识产权*/
+#equities{height:372px;}
+.equities_ul{background:url("../images/green.png") no-repeat;}
+
+.bglinear img{position:absolute;bottom:0;left:50%;margin-left:-12.5px;}
+.bud_bottom{height:423px;}
+.zcfh_img{padding-top:80px;}
+
+/*底部*/
+.footer{background:#222222;height:265px;border-top:1px solid #d8d8d8}
+.footer_t{height:193px;padding-top:37px;}
+
+.foot_des{width:690px;height:193px;border-right:1px solid #CF2324;font:14px/14px "Microsoft YaHei"}
+.foot_des a{padding-top:37px;color:#FEFEFE;padding-bottom:32px;float: left;}
+.a_left{margin-left:107px;}
+.a_center{margin-left:194px;}
+.a_right{margin-left:147px;}
+.footer_t dl{height:193px;}
+.footer_t dt{padding-top:5px;padding-right:104px;}
+.footer_t dd{padding-left:42px;color:#FEFEFE;}
+.footer_t dd span{margin-right:28px;width:14px;}
+.des_span_l{font:14px/17px "Microsoft YaHei";}
+.des_span_r{font:14px/21px "Microsoft YaHei";padding-top:126px;}
+.record{height:36px;font:14px/36px "Microsoft YaHei";color:#FEFEFE;text-align:center;}
+.record span{margin-left:40px;}
